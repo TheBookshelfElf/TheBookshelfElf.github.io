@@ -60,6 +60,7 @@
     font-size: 1.3rem;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    border-color: black;
 }
 
 .suggestions {
