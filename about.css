@@ -1,0 +1,105 @@
+.header {
+    padding: 20px 0px;
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+    max-width: 900px;
+    display: block;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.header p {
+    padding: 0 20px;
+}
+
+.back {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    width:fit-content;
+}
+
+.back a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    transition: all 0.3sease-out;
+}
+
+.back a:hover {
+    color: #c5cae9;
+}
+
+.image img{
+    max-height: 300px;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+body {
+    background-repeat: repeat;
+    background-image: url('images/bookcase.jpeg');
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.wrap {
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+.page_container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.footer {
+    background-color: rgb(227, 253, 240);
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.references {
+    padding: 20px 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+    max-width: 95%;
+    display: block;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.h_t_u {
+    padding: 20px 10px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 95%;
+    width: fit-content;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.htu_button {
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+}

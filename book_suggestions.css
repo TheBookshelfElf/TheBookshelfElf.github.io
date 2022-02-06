@@ -1,0 +1,216 @@
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+
+    background-color: rgba(255, 255, 255, .82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .33s ease-out;
+    transform: scale(1.2);
+}
+
+body.overlay-is-open .overlay {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+body.overlay-is-open .main-ui {
+    filter: blur(4px);
+}
+
+.overlay-inner {
+    background-color: rgb(227, 253, 240);
+    border-radius: 8px;
+    margin: 20px 40px;
+    border-width: 2px;
+    border-color: rgb(135, 188, 235);
+    border-style: double;
+    padding: 20px;
+}
+
+.overlay-inner h3 {
+    padding: 0 0 0 10%;
+    text-decoration: none;
+    font-weight:bold;
+    text-align: right;
+    margin: 0 0 10px 10%;
+    font-size: medium;
+}
+
+
+.header {
+    padding: 20px 0px;
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+    max-width: 95%;
+    display: block;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.header p {
+    padding: 0 20px;
+}
+
+.back {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    width:fit-content;
+}
+
+.back a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    transition: all 0.3sease-out;
+}
+
+.back a:hover {
+    color: #c5cae9;
+}
+
+.image img{
+    max-height: 300px;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+
+
+
+
+body {
+    background-repeat: repeat;
+    background-image: url('images/bookcase.jpeg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.wrap {
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+.page_container {
+    position: relative;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+
+.randomise {
+    padding: 20px 10px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 95%;
+    width: fit-content;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.rand_button {
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+
+
+.suggestions {
+    padding: 20px 20px;
+    margin: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.suggestions div {
+    background-color: rgb(100, 211, 245);
+    border-radius: 8px;
+    padding: 0 20px;
+}
+
+.suggestions h2 {
+    padding: 10px 0px;
+}
+
+.suggestions h3 {
+    padding: 0 0px;
+}
+
+.suggestions p {
+    padding: 0 0px;
+    margin: 0;
+ 
+}
+
+.suggestions h4 {
+    padding: 0 0 0 10%;
+    text-decoration: none;
+    font-weight:bold;
+    text-align: right;
+    margin: 0 0 10px 10%;
+}
+
+.suggestions div div {
+    text-align: right;
+}
+.suggestions button {
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+.footer {
+    background-color: rgb(227, 253, 240);
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.close-button {
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+}

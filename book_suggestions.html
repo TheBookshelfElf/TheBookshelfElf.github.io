@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recomendations</title>
+    <link rel="stylesheet" href="book_suggestions.css">
+</head>
+<body>
+    <div class="page_container">   
+        <div class="wrap">
+            <div class="main_ui">
+                <div class="back">
+                    <a class="backpointer" href="search_by_feat.html" id="back_button">Back</a>
+                </div>
+                <div class="image">
+                    <img src="images/elf.jpeg" alt="Elf">
+                </div>
+                <div class="header">
+                    <h1>Book Recommendations</h1>
+                    <p>Hi! Here are the books I found that match your search! To learn select which one you want to read more books like, click the select button!</p>
+                    <p>If you want to see more options, click the randomize button!</p>
+                </div>
+                <form action=""  class="randomise">
+                    <button class="rand_button">Randomize Book List</button>
+                </form>
+                <div id="suggestions" class="suggestions">
+                    
+                </div>
+            </div>
+    
+            <div class="overlay">
+                <div class="overlay-inner">
+                    <button class="close-button">Close</button>
+                    <h1 class="ChosenBookTitle" id="c_book_title"></h1>
+                    <h2 class="ChosenBookAuthor" id="c_book_author"></h2>
+                    <p class="ChosenBookDescrip" id="c_book_descrip"></p>
+                    <h3 class="ChosenBookDescrip" id="c_book_cite"></p>
+                    <h4 class="tag_header">Genre(s):</h4>
+                    <p class="ChosenBookTags" id="c_book_genre"></p>
+                    <h4 class="tag_header">How The Main Character(s) Identify:</h4>
+                    <p class="ChosenBookTags" id="c_book_identity"></p>
+                    <h4 class="tag_header">Type of Main Character(s):</h4>
+                    <p class="ChosenBookTags" id="c_book_protagtype"></p>
+                    <h4 class="tag_header">Other Tags:</h4>
+                    <p class="ChosenBookTags" id="c_book_other"></p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer">
+            <a href="https://vectorcharacters.net/holiday/elf-vector-character-set">Elf image: https://vectorcharacters.net/holiday/elf-vector-character-set</a>
+            <p></p>
+            <a href="https://www.freepik.com/vectors/poster">Background image: Poster vector created by macrovector - www.freepik.com</a>
+        </div>
+    </div>
+    <script src="book_suggestions.js"></script>
+</body>
+</html>
